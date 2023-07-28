@@ -9,7 +9,7 @@
                         Оставьте заявку и наши специалисты ответят на все
                         интересующие вопросы
                     </p>
-                    <a href="#callback" class="box-questions__btn btn purple-bg _popup-link">Оставить заявку</a>
+                    <a href="#showModal" class="box-questions__btn btn purple-bg _popup-link">Оставить заявку</a>
                 </div>
             </div>
             <div class="questions__img">

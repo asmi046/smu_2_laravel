@@ -1,8 +1,8 @@
 @extends('layouts.all')
 
 @php
-    $title = "Строительство нового дома г. Орел ";
-    $description = "Строительство нового дома г. Орел ";
+    $title = "Строительство нового дома ".config('contacts.home_adress');
+    $description = "Строительство нового дома ".config('contacts.home_adress');
 @endphp
 
 @section('title', $title)
