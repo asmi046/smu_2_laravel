@@ -1,8 +1,8 @@
 @extends('layouts.all')
 
 @php
-    $title = "Строительство нового дома г. Орел ";
-    $description = "Строительство нового дома г. Орел ";
+    $title = "Благодарим за обращение";
+    $description = "Благодарим за обращение";
 @endphp
 
 @section('title', $title)
@@ -11,8 +11,9 @@
 @section('content')
 
     <x-head></x-head>
-    <x-banner></x-banner>
-    <x-plan></x-plan>
+
+
+
     <x-questions></x-questions>
     <x-contacts></x-contacts>
 

@@ -16,3 +16,7 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', [IndexController::class, "index"])->name('home');
+Route::get('/policy', [EasyPageController::class, "show_policy"])->name('policy');
+
+Route::get('/thencs', [SenderController::class, "show_thencs"])->name('thencs');
+Route::post('/send_consult', [SenderController::class, "send_consultation"])->name('send_consultation');

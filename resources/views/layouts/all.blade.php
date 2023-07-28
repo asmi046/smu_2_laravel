@@ -39,6 +39,7 @@
 
 <body>
 	<div class="wrapper" id="global_app">
+        <modal-window rout="/send_consult" redirect="/thencs" hesh="showModal" title="Задать вопрос" subtitle="Мы свяжемся с Вами в течении 15 минут" showarea="false"></modal-window>
         @yield('content')
     </div>
 </body>
