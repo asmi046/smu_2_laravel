@@ -10,6 +10,7 @@ export default defineConfig({
                 'resources/css/app.css',
                 'public/css/style.css',
                 'public/css/form-element.css',
+                'public/css/text-styles.css',
                 'resources/js/app.js',
             ],
             refresh: true,

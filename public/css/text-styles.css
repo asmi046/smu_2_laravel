@@ -1,0 +1,35 @@
+.thencs_blk {
+    width: 100%;
+    text-align: center;
+}
+
+.thencs_blk h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.policy_section{
+    padding: 50px 0 150px 0;
+}
+
+.thencs_section {
+    padding: 100px 0 300px 0;
+}
+
+.text_styles {
+    font-size: 16px;
+}
+
+.text_styles p{
+    margin: 10px 0;
+}
+
+.text_styles h2{
+    margin: 20px 0;
+    font-size: 28px;
+}
+
+.text_styles h3{
+    margin: 20px 0;
+    font-size: 22px;
+}

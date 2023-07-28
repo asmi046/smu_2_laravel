@@ -34,22 +34,25 @@
         'resources/css/app.css',
         'public/css/style.css',
         'public/css/form-element.css',
+        'public/css/text-styles.css',
         'resources/js/app.js',
     ])
 
 </head>
 
 <body>
-	<div class="wrapper" id="global_app">
+	<div class="wrapper " id="global_app">
         <x-svg-sprite></x-svg-sprite>
         <x-mobile-menu></x-mobile-menu>
-
         <x-head></x-head>
+        <div class="page">
 
-        <modal-window rout="/send_consult" redirect="/thencs" hesh="showModal" title="Задать вопрос" subtitle="Мы свяжемся с Вами в течении 15 минут" showarea="false"></modal-window>
-        @yield('content')
 
-        <x-footer></x-footer>
+            <modal-window rout="/send_consult" redirect="/thencs" hesh="showModal" title="Задать вопрос" subtitle="Мы свяжемся с Вами в течении 15 минут" showarea="false"></modal-window>
+            @yield('content')
+
+            <x-footer></x-footer>
+        </div>
     </div>
 </body>
 
