@@ -5,7 +5,7 @@ return [
     "company_name" => 'ООО СЗ «СМУ 2»',
     "home_adress" => "г. Орёл, ул. Плещеевская, участок 8",
     "email" => "szlotos2022@yandex.ru",
-    "adres_to_send" => "asmi046@gmail.com",
+    "adres_to_send" => "asmi046@gmail.com, szlotos2022@yandex.ru",
     "inn" => "3254510586",
     "kpp" => "572501001",
     "ogrn" => "1113256003960",
