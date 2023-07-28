@@ -10,7 +10,7 @@
 
 @section('content')
 
-    <x-head></x-head>
+
     <x-banner></x-banner>
     <x-plan></x-plan>
     <x-questions></x-questions>

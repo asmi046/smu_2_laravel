@@ -15,9 +15,9 @@
 
                 <textarea v-if="showarea == 'true'" v-model="review" name="rewiew" placeholder="Ваш отзыв" rows="5"></textarea>
 
-                <p class="policy_descr">Заполняя данную форму и отправляя заявку вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+                <p class="policy_descr">Заполняя данную форму и отправляя заявку вы соглашаетесь с <a href="/policy">политикой конфиденциальности</a></p>
                 <div class="control_wrap">
-                    <button class="btn" @click.prevent="sendMsg()">Отправить</button> <div v-show="showLoader" class="loader"></div>
+                    <button class="purple-bg btn" @click.prevent="sendMsg()">Отправить</button> <div v-show="showLoader" class="loader"></div>
                 </div>
 
             </form>
@@ -195,6 +195,7 @@ export default {
         border-radius: 9px;
         padding: 5px 15px;
         margin-bottom: 20px;
+        font-size: 16px;
     }
 
 
