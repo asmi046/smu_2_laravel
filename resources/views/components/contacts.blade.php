@@ -16,7 +16,7 @@
                         <div class="list-contacts-sec__item"> {{config('contacts.company_name')}}</div>
                         <div class="list-contacts-sec__item">Директор: <span>{{config('contacts.direktor')}}</span></div>
                         <div class="list-contacts-sec__item">Тел: <span><a href="tel:+7{{phone_format(config('contacts.zastr_phone'))}}">{{config('contacts.offic_phone')}}</a></span></div>
-                        <div class="list-contacts-sec__item">Фактический адрес: <span>{{config('contacts.zastr_adr')}}</span></div>
+                        <div class="list-contacts-sec__item">Фактический адрес: <span>{{config('contacts.zastr_adr_fact')}}</span></div>
                         <div class="list-contacts-sec__item">Юридический адрес: <span>{{config('contacts.zastr_adr')}}</span></div>
                         <div class="list-contacts-sec__item">ИНН: <span>{{config('contacts.inn')}}</span></div>
                         <div class="list-contacts-sec__item">КПП: <span>{{config('contacts.kpp')}}</span></div>
