@@ -11,7 +11,7 @@
 				<x-menu-puncts></x-menu-puncts>
 			</ul>
 
-			<a href="tel:+7{{phone_format(config('contacts.main_phone'))}}" class="header__phone">
+			<a href="tel:{{phone_format(config('contacts.main_phone'))}}" class="header__phone">
 				<svg width="11" height="25" viewBox="0 0 11 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<use xlink:href="#phone_sprite"></use>
 				</svg>

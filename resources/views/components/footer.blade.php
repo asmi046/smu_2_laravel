@@ -26,7 +26,8 @@
 			<div class="footer__column">
 				<h3 class="footer__title">Контакты</h3>
 				<ul class="footer__menu">
-					<li class="footer__menu-item">Телефон: <a href="tel:+7{{phone_format(config('contacts.main_phone'))}}">{{config('contacts.main_phone')}}</a></li>
+					<li class="footer__menu-item">Телефон: <a href="tel:{{phone_format(config('contacts.main_phone'))}}">{{config('contacts.main_phone')}}</a></li>
+					<li class="footer__menu-item">Сотовый: <a href="tel:+7{{phone_format(config('contacts.mobile_phone'))}}">{{config('contacts.mobile_phone')}}</a></li>
 					<li class="footer__menu-item">Адрес: {{config('contacts.zastr_adr')}}</li>
 					<li class="footer__menu-item"><a href="mailto:{{config('contacts.email')}}" class="footer__menu-link">E-mail:
                         {{config('contacts.email')}}</a></li>
