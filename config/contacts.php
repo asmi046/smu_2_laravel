@@ -1,8 +1,9 @@
 <?php
 
 return [
-    "main_phone" => "632-532",
+    "main_phone" => "+7 (4862) 632-532",
     "mobile_phone" => "+7 (920) 826-45-15",
+    "nataly_phone" => "+7 (962) 380-05-14",
     "company_name" => 'ООО СЗ «СМУ 2»',
     "home_adress" => "г. Орёл, ул. Плещеевская, участок 8",
     "email" => "abond89@yandex.ru",

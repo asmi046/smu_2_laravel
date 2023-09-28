@@ -47,6 +47,7 @@
                         <div class="list-contacts-sec__tel-block">
                             <div class="list-contacts-sec__item">Тел: <span><a href="tel:{{phone_format(config('contacts.main_phone'))}}">{{config('contacts.main_phone')}}</a></span></div>
                             <div class="list-contacts-sec__item">Тел: <span><a href="tel:+7{{phone_format(config('contacts.offic_phone'))}}">{{config('contacts.offic_phone')}}</a></span></a></div>
+                            <div class="list-contacts-sec__item">Тел: <span><a href="tel:+7{{phone_format(config('contacts.nataly_phone'))}}">{{config('contacts.nataly_phone')}}</a></span></a> <span>- Наталья Николаевна</span></div>
                         </div>
                         <div class="list-contacts-sec__item">Режим работы: <span class="purple-color">{{config('contacts.offic_rwork')}}</span>
                         </div>
