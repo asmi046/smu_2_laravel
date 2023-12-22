@@ -4469,3 +4469,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
  .lg-outer .lg-has-youtube:hover .lg-video-play{ background: url(../img/youtube-play.webp) no-repeat scroll 0 -60px transparent; }
 
  .main-banner{ background-image: url(../img/main-banner.webp); }
+
+
+ .ngp ._container {
+    background-image: url(../img/ngp.webp);
+    padding: 40px 60px;
+    border-radius: 20px;
+ }
+
+ .ngp ._container h2{
+    margin-bottom: 20px;
+}
+
+ .ngp ._container p{
+    margin: 10px 0;
+}
