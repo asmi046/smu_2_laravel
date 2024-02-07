@@ -14,9 +14,11 @@
                     <h3 class="list-contacts-sec__title purple-color">Застройщик:</h3>
                     <div class="list-contacts-sec__row">
                         <div class="list-contacts-sec__item"> {{config('contacts.company_name')}}</div>
+
                         <div class="list-contacts-sec__item">
                             <a href="{{asset('files/policy_unit_smu_2.pdf')}}">Политика прав человека СМУ №2</a>
                         </div>
+
                         <div class="list-contacts-sec__item">Директор: <span>{{config('contacts.direktor')}}</span></div>
                         {{-- <div class="list-contacts-sec__item">Тел: <span><a href="tel:+7{{phone_format(config('contacts.zastr_phone'))}}">{{config('contacts.offic_phone')}}</a> - директор</span></div> --}}
                         <div class="list-contacts-sec__item">Фактический адрес: <span>{{config('contacts.zastr_adr_fact')}}</span></div>
